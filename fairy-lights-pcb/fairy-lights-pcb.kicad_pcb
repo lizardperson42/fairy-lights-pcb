@@ -177,9 +177,9 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 3.81 1.92 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b8e25ff7-e3cf-4311-84c3-a19182f18d8f")
 			(effects
 				(font
@@ -2676,6 +2676,66 @@
 		(layer "Edge.Cuts")
 		(uuid "5268d45d-bc58-4eb1-a236-244b28cfab63")
 	)
+	(gr_text "5V"
+		(at 107.7 114.5 0)
+		(layer "F.SilkS")
+		(uuid "3d8c30b6-7570-4c52-98ea-f3af5f47e862")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "5V 2A"
+		(at 76.605 104.5 0)
+		(layer "F.SilkS")
+		(uuid "57162918-59e6-4a6d-8a83-609b898031f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "C"
+		(at 112.5 114.5 0)
+		(layer "F.SilkS")
+		(uuid "70a6cfe7-6ead-447b-bce1-6025c9a8ce77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "D"
+		(at 110.5 114.5 0)
+		(layer "F.SilkS")
+		(uuid "9e2710ce-3b76-4dc0-8975-2579b142114e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "GND"
+		(at 115.5 114.5 0)
+		(layer "F.SilkS")
+		(uuid "e3d1f546-b28c-4e8b-a604-87d8829d1585")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
 	(segment
 		(start 107.7 111.3483)
 		(end 106.5063 110.1546)
@@ -2765,7 +2825,7 @@
 		(uuid "af52fed6-d31e-4ea3-849a-f3b6cabac1d8")
 	)
 	(via
-		(at 97.5 76)
+		(at 111.5 82.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -2774,7 +2834,7 @@
 		(uuid "922db85f-eaec-42ce-ba06-15df1816b9e8")
 	)
 	(via
-		(at 112 82)
+		(at 97.5 76)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
