@@ -76,6 +76,11 @@
     "legacy_lib_dir": "",
     "legacy_lib_list": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c40a4c0f-dcaf-41c4-b21e-10b233cddaa8",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
