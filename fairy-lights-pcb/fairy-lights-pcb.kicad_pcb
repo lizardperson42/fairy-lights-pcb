@@ -435,6 +435,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1fff4efd-d065-4cc6-8ceb-62731f8acba3")
 		(at 66.5 64.5)
@@ -2777,6 +2778,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5cbf2ea5-a87d-4e80-95d0-60587901aa52")
 		(at 118 64.5)
@@ -2886,6 +2888,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8c3d92cf-f814-4026-9955-16e79798890c")
 		(at 66.5 115.5)
@@ -4420,6 +4423,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d4a5b014-8264-4dfe-9d2d-0f916c21a20e")
 		(at 118 115.5)
