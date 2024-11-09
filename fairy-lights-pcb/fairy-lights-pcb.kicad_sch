@@ -2897,6 +2897,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 73.66) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3b64ca-6f58-4048-bedb-ef87ec881459")
+	)
+	(wire
+		(pts
 			(xy 185.42 63.5) (xy 199.39 63.5)
 		)
 		(stroke
@@ -3084,6 +3094,17 @@
 			(type default)
 		)
 		(uuid "fbff9074-a843-44b1-bbb2-957c7456cd9f")
+	)
+	(label "5V_RAW"
+		(at 62.23 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c973d286-f18b-4ee5-b32d-1050a89fdfca")
 	)
 	(global_label "UC_D0"
 		(shape input)
@@ -3305,6 +3326,75 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e624640-11fb-4a96-af91-58e7c1f1f205")
+		(property "Netclass" "Power"
+			(at 64.1985 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 64.77 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9bcc817-eecc-4a69-b018-1748a8a7f237")
+		(property "Netclass" "Power"
+			(at 65.4685 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 76.2 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e452ddc2-8e77-4c91-97f8-272baa6a826b")
+		(property "Netclass" "Power"
+			(at 76.8985 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 140.97 95.25 0)
@@ -3367,6 +3457,72 @@
 			(project ""
 				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13645914-d95d-400a-9f6c-510f6105bca5")
+		(property "Reference" "#PWR021"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "038cbcbf-1db8-472f-a1a3-8eafe09c30ce")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3718,7 +3874,7 @@
 	)
 	(symbol
 		(lib_id "CustomSymbols:Power_Jack")
-		(at 63.5 76.2 0)
+		(at 50.8 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3727,7 +3883,7 @@
 		(fields_autoplaced yes)
 		(uuid "45412469-821c-4144-a36c-fd2f97818d4b")
 		(property "Reference" "J1"
-			(at 63.5 67.31 0)
+			(at 50.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3891,7 @@
 			)
 		)
 		(property "Value" "Power_Jack"
-			(at 63.5 69.85 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +3899,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 64.77 77.216 0)
+			(at 52.07 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3908,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 77.216 0)
+			(at 52.07 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3917,7 @@
 			)
 		)
 		(property "Description" "Power_Jack"
-			(at 63.5 76.2 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,6 +4291,72 @@
 			(project ""
 				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7242bde3-20a8-4044-a004-e0af9cd5fd62")
+		(property "Reference" "#PWR020"
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "423d93fd-4ce8-47d1-8d9d-7501fc7567f3")
+		)
+		(instances
+			(project ""
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5067,7 +5289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 78.74 90)
+		(at 58.42 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5076,7 +5298,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5f67a1f-d96e-484c-a7b0-5c77d91ad427")
 		(property "Reference" "#PWR01"
-			(at 77.47 78.74 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 78.7399 90)
+			(at 62.23 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 78.74 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 78.74 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 78.74 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
