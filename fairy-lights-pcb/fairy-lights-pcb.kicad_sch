@@ -5376,21 +5376,21 @@
 		(dnp no)
 		(uuid "c1124817-c1de-4d2b-be9b-4528bab8ea9d")
 		(property "Reference" "R2"
-			(at 129.286 93.472 0)
+			(at 132.08 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TBD"
-			(at 128.27 95.25 0)
+		(property "Value" "47"
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
