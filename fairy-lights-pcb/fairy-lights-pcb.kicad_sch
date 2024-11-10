@@ -915,7 +915,7 @@
 						)
 					)
 				)
-				(pin no_connect non_logic
+				(pin free line
 					(at 0 -7.62 90)
 					(length 3.048)
 					(name "MP"
@@ -3474,6 +3474,72 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0390b8c7-1926-4af1-93e8-780491f1b851")
+		(property "Reference" "#PWR022"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "268fdd63-d730-4bf4-a525-b604a6c81052")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR022")
+					(unit 1)
+				)
 			)
 		)
 	)

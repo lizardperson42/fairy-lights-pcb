@@ -593,7 +593,7 @@
 					)
 				)
 			)
-			(pin no_connect non_logic
+			(pin free line
 				(at 0 -7.62 90)
 				(length 3.048)
 				(name "MP"
