@@ -522,204 +522,6 @@
 				)
 			)
 		)
-		(symbol "CustomSymbols:Conn_Misc"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Misc"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 1.143 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 1.143 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Miscellaneous connector"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Misc_1_1"
-				(rectangle
-					(start 0 -3.81)
-					(end 1.27 -4.064)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 -1.27)
-					(end 1.27 -1.524)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 1.27)
-					(end 1.27 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 3.81)
-					(end 1.27 3.556)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 4.953)
-					(end 5.08 -5.207)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 3.81 0)
-					(length 3.81)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 1.27 0)
-					(length 3.81)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -1.27 0)
-					(length 3.81)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CustomSymbols:Power_Jack"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2779,6 +2581,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038559b4-16e5-44a2-b09b-e79d0f069afc")
+	)
+	(wire
+		(pts
 			(xy 147.32 66.04) (xy 154.94 66.04)
 		)
 		(stroke
@@ -2829,6 +2641,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 78.74) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8df9d0-9609-479b-a979-7b430b4f4427")
+	)
+	(wire
+		(pts
 			(xy 185.42 68.58) (xy 185.42 63.5)
 		)
 		(stroke
@@ -2839,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 185.42 78.74)
+			(xy 175.26 78.74) (xy 182.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2859,16 +2681,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 78.74) (xy 185.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5407043f-69ed-4cd7-9a35-a14fc330b89c")
-	)
-	(wire
-		(pts
 			(xy 182.88 60.96) (xy 199.39 60.96)
 		)
 		(stroke
@@ -2876,6 +2688,16 @@
 			(type default)
 		)
 		(uuid "61e471a7-6b02-4965-a430-96cd3cb98405")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ba36a1-3103-4b9b-998b-3b57d2499c1d")
 	)
 	(wire
 		(pts
@@ -2909,7 +2731,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 199.39 76.2)
+			(xy 175.26 76.2) (xy 182.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2939,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 76.2) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a262dacc-5a35-4847-9d2c-b4c0743c4107")
+	)
+	(wire
+		(pts
 			(xy 124.46 78.74) (xy 142.24 78.74)
 		)
 		(stroke
@@ -2946,6 +2778,16 @@
 			(type default)
 		)
 		(uuid "a350ebe2-ab19-4e49-8172-76042de87995")
+	)
+	(wire
+		(pts
+			(xy 185.42 81.28) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f4bcfb-5640-4fb0-b3fb-29197edd74d2")
 	)
 	(wire
 		(pts
@@ -2969,7 +2811,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 73.66) (xy 199.39 73.66)
+			(xy 185.42 73.66) (xy 199.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd31d96-f30e-481a-b4e8-c466be451834")
+	)
+	(wire
+		(pts
+			(xy 175.26 73.66) (xy 182.88 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3059,6 +2911,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bf99a4-841f-41ee-8175-72cb80ceeea3")
+	)
+	(wire
+		(pts
 			(xy 139.7 83.82) (xy 152.4 71.12)
 		)
 		(stroke
@@ -3066,16 +2928,6 @@
 			(type default)
 		)
 		(uuid "d82f0f81-984f-4a49-9c16-e12761f3a827")
-	)
-	(wire
-		(pts
-			(xy 182.88 81.28) (xy 182.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db88179b-8a52-4779-a670-5e6a02524a2b")
 	)
 	(wire
 		(pts
@@ -3099,23 +2951,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 199.39 86.36)
+			(xy 182.88 88.9) (xy 199.39 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e52c3097-0bf2-4592-bebd-8e177e2f3a87")
-	)
-	(wire
-		(pts
-			(xy 175.26 81.28) (xy 182.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f249fa-ba40-4337-97b2-1ea71b21faa6")
+		(uuid "e425d98b-57fe-46e0-b25b-635a577e6f27")
 	)
 	(wire
 		(pts
@@ -3129,13 +2971,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 199.39 88.9)
+			(xy 185.42 76.2) (xy 199.39 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e721523b-4545-4ddb-b7d0-0acaa9784a34")
+		(uuid "e6a153bd-af43-42dd-90ac-ba7f102b0395")
 	)
 	(wire
 		(pts
@@ -4433,7 +4275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomSymbols:Conn_Misc")
+		(lib_id "CustomSymbols:Conn_LED_Strand")
 		(at 203.2 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4443,7 +4285,7 @@
 		(fields_autoplaced yes)
 		(uuid "71b5caa4-63bd-4eeb-b253-f5e504f80070")
 		(property "Reference" "J4"
-			(at 209.55 86.4869 0)
+			(at 210.82 86.4869 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,8 +4293,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Misc"
-			(at 209.55 89.0269 0)
+		(property "Value" "Conn_LED_Strand"
+			(at 210.82 89.0269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miscellaneous connector"
+		(property "Description" "LED strand connector"
 			(at 204.47 86.36 0)
 			(effects
 				(font
