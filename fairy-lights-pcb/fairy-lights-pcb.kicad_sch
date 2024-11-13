@@ -2657,8 +2657,8 @@
 		(uuid "ba7f36c6-324f-474d-8991-0c8312a5ce1b")
 	)
 	(no_connect
-		(at 210.82 107.95)
-		(uuid "c36b47ba-bc10-44cc-9500-6af86b5b9cdf")
+		(at 241.3 107.95)
+		(uuid "eb50b917-fa96-4497-adde-08c9f8ed00f9")
 	)
 	(wire
 		(pts
@@ -2909,16 +2909,6 @@
 			(type default)
 		)
 		(uuid "af5fb69b-12d1-44b2-a3c8-960ff1a0822d")
-	)
-	(wire
-		(pts
-			(xy 180.34 107.95) (xy 195.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f2a0e4-b611-459c-be0f-859a7f4a1775")
 	)
 	(wire
 		(pts
@@ -3477,6 +3467,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 233.68 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "114a7118-1b97-4c18-8af8-436de4596030")
+		(property "Reference" "#PWR028"
+			(at 233.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde223d7-538c-4b34-8703-137388668d53")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 140.97 95.25 0)
 		(unit 1)
@@ -3951,6 +4007,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 233.68 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "440f96f0-1546-417c-a15b-ec562cec40f7")
+		(property "Reference" "#PWR029"
+			(at 233.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8272235d-92cc-4f4c-a8bb-e7960acc15c4")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CustomSymbols:Power_Jack")
 		(at 50.8 76.2 0)
 		(unit 1)
@@ -4156,6 +4278,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f92586-09f3-495a-8d04-8366cc656d20")
+		(property "Reference" "#PWR026"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 218.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96e6abb3-77e2-45cf-b3aa-461ba16aa1e2")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CustomSymbols:Conn_LED_Strand")
 		(at 203.2 62.23 0)
 		(unit 1)
@@ -4226,6 +4414,72 @@
 			(project ""
 				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d1a2eca-97bf-4fa9-80bf-83e78648e22a")
+		(property "Reference" "#PWR025"
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1502e86-bf5c-429f-bc5c-90465e96144e")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4509,7 +4763,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 100.33 0)
+		(at 187.96 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4518,7 +4772,7 @@
 		(fields_autoplaced yes)
 		(uuid "75b51b11-850c-4d7f-aede-a19c4e641e64")
 		(property "Reference" "#PWR023"
-			(at 203.2 104.14 0)
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4781,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 203.2 95.25 0)
+			(at 187.96 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 100.33 0)
+			(at 187.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 100.33 0)
+			(at 187.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 100.33 0)
+			(at 187.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +5089,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 115.57 0)
+		(at 187.96 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4844,7 +5098,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c2d1213-938c-4721-81b5-6b118a0cc5a7")
 		(property "Reference" "#PWR019"
-			(at 203.2 121.92 0)
+			(at 187.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 120.65 0)
+			(at 187.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +5115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 115.57 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +5124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 115.57 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +5133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 115.57 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,6 +5546,297 @@
 			(project ""
 				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b55357ba-0f37-4798-bedf-d344c25ec6ec")
+		(property "Reference" "#PWR027"
+			(at 218.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd73cb9e-bda8-4487-b125-9751d58f3063")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 218.44 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd4243cf-2180-4eec-9f4f-09daa4f6e304")
+		(property "Reference" "D3"
+			(at 212.344 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 212.344 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 220.98 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bf2b012-74ee-43b3-a106-468eaf95f492")
+		)
+		(pin "4"
+			(uuid "da955f0f-c6bb-4fca-9436-234bb495a8a7")
+		)
+		(pin "2"
+			(uuid "8a63697c-434c-4463-9d25-3bbe7a0c99ee")
+		)
+		(pin "3"
+			(uuid "03b7adc5-44a6-42b1-99a6-445c10094daf")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 203.2 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0f433c5-7fa4-4fed-9afa-9552b0a6e84a")
+		(property "Reference" "D2"
+			(at 197.104 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 197.104 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 205.74 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3586138f-8d84-4fc1-83cd-c9d6db48c51c")
+		)
+		(pin "4"
+			(uuid "e8b9dd7b-f489-49cb-a745-3ad8040274a9")
+		)
+		(pin "2"
+			(uuid "00a9bbe4-6036-4ce0-b0da-f1d6c4b2b116")
+		)
+		(pin "3"
+			(uuid "fe4aa97c-36da-4b11-9515-9267d887282e")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 233.68 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c10058f1-8e2a-4b20-8cca-fc60465589af")
+		(property "Reference" "D4"
+			(at 227.584 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 227.584 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 234.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 236.22 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd75592b-f65a-43a8-a4b0-cf03feb528fd")
+		)
+		(pin "4"
+			(uuid "3b52c09c-6355-4021-949d-df58c3c69d1c")
+		)
+		(pin "2"
+			(uuid "b7e30eec-dd57-4e63-95de-6007c3bbe490")
+		)
+		(pin "3"
+			(uuid "ea5f9dff-2fb3-4acd-8916-606571439dff")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5952,6 +6497,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 203.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef7cf892-2f40-41be-aee4-2e64bc55c94a")
+		(property "Reference" "#PWR024"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "675990c6-a67b-4387-99a2-f84c6af01f22")
+		)
+		(instances
+			(project "fairy-lights-pcb"
+				(path "/c40a4c0f-dcaf-41c4-b21e-10b233cddaa8"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CustomSymbols:SW_PWR")
 		(at 78.74 73.66 0)
 		(unit 1)
@@ -6021,16 +6632,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 203.2 107.95 0)
+		(at 187.96 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9100ad5-4bbc-4efd-8702-05cdb76b1de0")
 		(property "Reference" "D1"
-			(at 214.63 101.6314 0)
+			(at 181.864 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6648,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 214.63 104.1714 0)
+			(at 181.864 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6656,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 204.47 115.57 0)
+			(at 189.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6666,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 205.74 117.475 0)
+			(at 190.5 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6676,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 203.2 107.95 0)
+			(at 187.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
