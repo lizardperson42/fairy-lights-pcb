@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.0,
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,11 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|59950000|111100000|5268d45d-bc58-4eb1-a236-244b28cfab63|7a8d7d7b-2c21-4615-87dd-69c2bef4bc67",
+        "silk_edge_clearance|60000000|101900000|5268d45d-bc58-4eb1-a236-244b28cfab63|5528114a-79d7-4da2-8118-c4090028a525",
+        "silk_edge_clearance|60000000|111100000|5268d45d-bc58-4eb1-a236-244b28cfab63|498cf197-cc9e-4b1a-b49c-2f242bbcedb6"
+      ],
       "meta": {
         "version": 2
       },
@@ -427,7 +431,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "CustomLibrary"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -452,14 +458,48 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.6,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "+5V": "Power",
+      "/5V_RAW": "Power",
+      "GND": "Power"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/5V_RAW"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
