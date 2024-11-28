@@ -13,7 +13,7 @@ The PCB design files are created using KiCad.
 - Pin headers, 2.54mm pitch, 1x4 pins and 2x4 pins (up to 1 unit each)
 - WS2812B SMD LEDs (0 or 4 units)
 - Vertical tactile push buttons (up to 2 units)
-- THT resistors (0 or 2 units, values TBD)
+- THT resistors (10kΩ, 0 or 2 units)
 
 ### Notes
 
