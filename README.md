@@ -6,8 +6,9 @@ The PCB design files are created using KiCad.
 
 ## Parts
 
+- This PCB (1 unit)
 - [WeMos D1 Mini ESP8266](https://www.wemos.cc/en/latest/d1/d1_mini.html) (1 unit)
-- DC barrel jack, 5.5mm x 2.0mm (1 unit)
+- DC barrel jack, 5.5mm OD, 2.1mm ID (1 unit)
 - Screw terminals, 5mm pitch, 4-pin and/or 3-pin (up to 1 unit of each size)
 - Pin header, 2.54mm pitch, 1x2 pins (1 unit)
 - Pin headers, 2.54mm pitch, 1x4 pins and 2x4 pins (up to 1 unit each)
@@ -18,11 +19,13 @@ The PCB design files are created using KiCad.
 ### Notes
 
 - The WeMos D1 Mini module can be mounted in various ways.
-  The CAD model used here connects it via pin sockets and headers.
+  The CAD model used here connects it via pin sockets and headers, permitting easy removal and reattachment.
+- Any footprint-compatible barrel jack can be used, as long as the right voltage is applied through it.
 - One could leave out the barrel jack, but without it most of the board becomes redundant.
 - The screw terminals are used to attach connectors for the LED strands, which use wire-to-wire connectors.
 - The 2-pin header is interposed between the power jack and the board's 5V rail.
   One can wire up a power switch to it or short it with a jumper.
+  The PCB includes a free area for placing a power switch on the front panel.
 - The optional pin headers expose the pins of the WeMos D1 Mini module which are not used otherwise.
 - The SMD LEDs are connected in a chain around the board; it is not useful to populate only some of them.
 - The buttons are directly connected to the microcontroller's GPIO pins.
@@ -36,7 +39,7 @@ The PCB design files are created using KiCad.
 
 ## Accessories
 
-- 5V DC power supply, at least 2A recommended, matching the barrel jack
+- 5V DC power supply, at least 2A recommended, pin positive, sleeve negative, matching the barrel jack
 - WS2801 LED strand, JST SM 4-pin connector, particularly [this one](https://www.adafruit.com/product/322) (optional)
 - WS2812 LED strand, JST SM 3-pin connector (optional)
 
@@ -49,15 +52,15 @@ The PCB design files are created using KiCad.
 
 The PCB has the following connectors:
 
-- J1: 5V DC power input, at least 2A recommended, pin positive, sleeve negative.
-- J2: SPI LED strand connector, 5V power, 3.3V signals.
-  - Data line is tied to MCU pin D7 (GPIO13).
-  - Clock line is tied to MCU pin D5 (GPIO14).
-- J3: WS2812 LED strand connector, 5V power, 3.3V signals.
-  - Data line is tied to MCU pin D6 (GPIO12).
-- J4: I²C connector, 3.3V power and signals.
-  - Data line is tied to MCU pin D2 (GPIO4).
-  - Clock line is tied to MCU pin D1 (GPIO5).
+- J1: 5V DC power input, at least 2A recommended, pin positive, sleeve negative
+- J2: SPI LED strand connector, 5V power, 3.3V signals
+  - Data line is tied to MCU pin D7 (GPIO13)
+  - Clock line is tied to MCU pin D5 (GPIO14)
+- J3: WS2812 LED strand connector, 5V power, 3.3V signals
+  - Data line is tied to MCU pin D6 (GPIO12)
+- J4: I²C connector, 3.3V power and signals
+  - Data line is tied to MCU pin D2 (GPIO4)
+  - Clock line is tied to MCU pin D1 (GPIO5)
 - J5: Miscellaneous connector. Layout and MCU pin mapping:
   ```
    GND |1 2| RST
