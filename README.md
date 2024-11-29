@@ -50,6 +50,9 @@ The power supply needs to be rated to supply enough current to power the microco
 The microcontroller can draw currents of up to 500mA, with typical consumption lower.
 Consult your LED strands' user manuals for information about their current requirements.
 
+> [!CAUTION]
+> Do not attach the barrel jack and the microcontroller's USB connector simultaneously!
+
 > [!IMPORTANT]
 > This board powers the LED strands and on-board LEDs from the 5V rail but controls them using 3.3V signals straight from the ESP8266.
 > This pushes the envelope of what their WS28xx driver chips are documented to support.
