@@ -83,23 +83,23 @@ The PCB has the following connectors:
 
 The microcontroller's pins are used as follows:
 
-Name        | Function              | Connector
-------------+-----------------------+------------------------
-GND         | Common ground         | J1; J2; J3; J4; J5; USB
-5V          | 5V rail               | J1; J2; J3; J5; USB
-3.3V        | 3.3V rail             | J4; J5
-RST         | Reset                 | J5
-RX (GPIO3)  | UART receive          | J5; via USB
-TX (GPIO1)  | UART transmit         | J5; via USB
-A0 (ADC0)   | Analog input          | J5
-D0 (GPIO16) | Button                | SW3 (USER_B)
-D1 (GPIO5)  | I²C clock             | J4
-D2 (GPIO4)  | I²C data              | J4
-D3 (GPIO0)  | Button; MCU flashing  | SW2 (USER_A)
-D4 (GPIO2)  | MCU module LED        | none
-D5 (GPIO14) | SPI clock             | J2
-D6 (GPIO12) | WS2812 data           | J3
-D7 (GPIO13) | SPI data              | J2
-D8 (GPIO15) | On-board WS2812B LEDs | none
+| Name        | Function              | Connector               |
+| ----------- | --------------------- | ----------------------- |
+| GND         | Common ground         | J1; J2; J3; J4; J5; USB |
+| 5V          | 5V rail               | J1; J2; J3; J5; USB     |
+| 3.3V        | 3.3V rail             | J4; J5                  |
+| RST         | Reset                 | J5                      |
+| RX (GPIO3)  | UART receive          | J5; via USB             |
+| TX (GPIO1)  | UART transmit         | J5; via USB             |
+| A0 (ADC0)   | Analog input          | J5                      |
+| D0 (GPIO16) | Button                | SW3 (USER_B)            |
+| D1 (GPIO5)  | I²C clock             | J4                      |
+| D2 (GPIO4)  | I²C data              | J4                      |
+| D3 (GPIO0)  | Button; MCU flashing  | SW2 (USER_A)            |
+| D4 (GPIO2)  | MCU module LED        | none                    |
+| D5 (GPIO14) | SPI clock             | J2                      |
+| D6 (GPIO12) | WS2812 data           | J3                      |
+| D7 (GPIO13) | SPI data              | J2                      |
+| D8 (GPIO15) | On-board WS2812B LEDs | none                    |
 
 “USB” refers to the microcontroller module's USB port (5V, GND) or to its USB-to-serial converter chip (RX, TX).
