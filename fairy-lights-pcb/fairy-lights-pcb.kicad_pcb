@@ -6733,7 +6733,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "USER_A"
+	(gr_text "USER_B"
 		(at 81.25 77.5 90)
 		(layer "F.SilkS")
 		(uuid "26ceb5a4-217e-41de-9df9-eb521cf40fc1")
@@ -6900,7 +6900,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "USER_B"
+	(gr_text "USER_A"
 		(at 76 96.5 90)
 		(layer "F.SilkS")
 		(uuid "a60aa547-e27e-4cbd-ae1d-d30504fb11fe")
