@@ -25,6 +25,7 @@ The PCB design files are created using KiCad.
 - The screw terminals are used to attach connectors for the LED strands, which use wire-to-wire connectors.
 - The 2-pin header is interposed between the power jack and the board's 5V rail.
   One can wire up a power switch to it or short it with a jumper.
+  Without external power, the board is mostly useless.
   The PCB includes a free area for installing a power switch close to the front-panel buttons.
 - The optional pin headers expose the pins of the WeMos D1 Mini module which are not used otherwise.
 - The SMD LEDs are connected in a chain around the board; it is not useful to populate only some of them.
@@ -39,12 +40,13 @@ The PCB design files are created using KiCad.
 
 ## Accessories
 
-- 5V DC power supply, suitable power rating, pin positive, sleeve negative, matching the barrel jack
+- 5V DC power supply, suitable current rating, pin positive, sleeve negative, matching the barrel jack
 - WS2801 LED strand, JST SM 4-pin connector, particularly [this one](https://www.adafruit.com/product/322) (optional)
-- WS2812 LED strand, JST SM 3-pin connector (optional)
+- WS2812B LED strand, JST SM 3-pin connector (optional)
 
 The power supply needs to be rated to supply enough current to power the microcontroller and the LED strand(s).
-See your LED strand's user manual for information about required current ratings.
+The microcontroller can draw currents of up to 500mA, with typical consumption lower.
+Consult your LED strands' user manuals for information about their current requirements.
 
 > [!IMPORTANT]
 > This board powers the LED strands and on-board LEDs from the 5V rail but controls them using 3.3V signals straight from the ESP8266.
@@ -95,4 +97,4 @@ D6 (GPIO12) | WS2812 data           | J3
 D7 (GPIO13) | SPI data              | J2
 D8 (GPIO15) | On-board WS2812B LEDs | none
 
-“USB” refers to the MCU module's on-board USB connector, if any.
+“USB” refers to the microcontroller module's USB port (5V, GND) or to its USB-to-serial converter chip (RX, TX).
