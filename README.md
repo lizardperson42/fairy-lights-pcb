@@ -4,6 +4,8 @@ This repository contains the PCB design files for the fairy lights project.
 The project is a set of fairy lights that is attached to a custom PCB and controlled by an ESP8266 microcontroller.
 The PCB design files are created using KiCad.
 
+![3D render of the PCB, fully populated](img/render.png)
+
 ## Parts
 
 - This PCB (1 unit)
