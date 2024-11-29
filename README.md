@@ -15,17 +15,17 @@ The PCB design files are created using KiCad.
 - WS2812B SMD LEDs (0 or 4 units)
 - Vertical tactile push buttons (up to 2 units)
 - THT resistors (10kΩ, 0 or 2 units)
+- Power switch or jumper for the 2-pin header (1 unit)
 
 ### Notes
 
 - The WeMos D1 Mini module can be mounted in various ways.
   The CAD model used here connects it via pin sockets and headers, permitting easy removal and reattachment.
-- Any footprint-compatible barrel jack can be used, as long as the right voltage is applied through it.
-- One could leave out the barrel jack, but without it most of the board becomes redundant.
+- Any footprint-compatible barrel jack can be used.
 - The screw terminals are used to attach connectors for the LED strands, which use wire-to-wire connectors.
 - The 2-pin header is interposed between the power jack and the board's 5V rail.
   One can wire up a power switch to it or short it with a jumper.
-  The PCB includes a free area for placing a power switch on the front panel.
+  The PCB includes a free area for installing a power switch close to the front-panel buttons.
 - The optional pin headers expose the pins of the WeMos D1 Mini module which are not used otherwise.
 - The SMD LEDs are connected in a chain around the board; it is not useful to populate only some of them.
 - The buttons are directly connected to the microcontroller's GPIO pins.
@@ -39,9 +39,12 @@ The PCB design files are created using KiCad.
 
 ## Accessories
 
-- 5V DC power supply, at least 2A recommended, pin positive, sleeve negative, matching the barrel jack
+- 5V DC power supply, suitable power rating, pin positive, sleeve negative, matching the barrel jack
 - WS2801 LED strand, JST SM 4-pin connector, particularly [this one](https://www.adafruit.com/product/322) (optional)
 - WS2812 LED strand, JST SM 3-pin connector (optional)
+
+The power supply needs to be rated to supply enough current to power the microcontroller and the LED strand(s).
+See your LED strand's user manual for information about required current ratings.
 
 > [!IMPORTANT]
 > This board powers the LED strands and on-board LEDs from the 5V rail but controls them using 3.3V signals straight from the ESP8266.
@@ -52,7 +55,7 @@ The PCB design files are created using KiCad.
 
 The PCB has the following connectors:
 
-- J1: 5V DC power input, at least 2A recommended, pin positive, sleeve negative
+- J1: 5V DC power input, pin positive, sleeve negative
 - J2: SPI LED strand connector, 5V power, 3.3V signals
   - Data line is tied to MCU pin D7 (GPIO13)
   - Clock line is tied to MCU pin D5 (GPIO14)
