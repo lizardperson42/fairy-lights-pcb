@@ -4226,7 +4226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+		(property "Footprint" "CustomLibrary:BarrelJack_Horizontal"
 			(at 52.07 77.216 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:WEMOS_D1_mini_light"
+		(property "Footprint" "CustomLibrary:WEMOS_D1_mini_light"
 			(at 114.3 105.41 0)
 			(effects
 				(font
