@@ -1087,7 +1087,7 @@
 		(property "TurboCaseModule" "eNpVjkELwjAMhe/9FTluOHUTFMbw5M2Td5HSdZkOu1baVBHxv1u7MTSHEL4k773eNF4h7DwZT/xg Hmj5Xsgrd752ZIWkJIUXg1CmbR0SD3ewhWJdRShqc0d+k3Vgm8UIm070SGgDK2EGxUAV6jNdvr95 xSKxhgRhcswzmJeh5ac08uCrnYqrST9ss58I46V8qk43aJNBPJusl6v/WaIeApH1mFbszT4/KEu9"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1e43e71-9f97-4d0b-8476-aa6031bdff60")
 			(effects
@@ -1100,7 +1100,7 @@
 		(property "TurboCaseSub" "Cutout_Power_Jack_substract()"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "877629f8-a026-4426-93aa-602ec1b22da3")
 			(effects
@@ -1113,7 +1113,7 @@
 		(property "TurboCaseOffsetPCB" "yes"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e7f371b-5afa-4a86-ae3f-bf8f7a374992")
 			(effects
@@ -1126,7 +1126,7 @@
 		(property "TurboCaseHeight" "10"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb3b9013-1f61-48bd-933e-a929c368809e")
 			(effects
@@ -3062,7 +3062,7 @@
 		(descr "16-pin module, column spacing 22.86 mm (900 mils), https://wiki.wemos.cc/products:d1:d1_mini, https://c1.staticflickr.com/1/734/31400410271_f278b087db_z.jpg")
 		(tags "ESP8266 WiFi microcontroller")
 		(property "Reference" "U1"
-			(at 0.25 24.75 180)
+			(at 0.25 24.75 360)
 			(layer "F.SilkS")
 			(uuid "99c2f36d-7599-45f6-b956-95a47686da62")
 			(effects
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(property "Value" "WeMos_D1_mini"
-			(at 11.7 0 -90)
+			(at 11.7 0 90)
 			(layer "F.Fab")
 			(uuid "3d164fef-5255-4d33-88e7-26886e002b2a")
 			(effects
@@ -3125,7 +3125,7 @@
 		(property "TurboCaseModule" "eNq9UstOwzAQvPcr9kaiOk+BCqp6of0D4ISqyHG2TURiV35QKtR/x4njtJUQR1Y+eNczs+O1O1GZ FmFttDC6eD0dcF0oUyotKdPFJgtC+J6BjWNT6RpWkD0sh7xFvh8KC5fX2Oxr3efxiEgSqBqlKWcI Oyk66ISuUZaCygq0gE0Gbh95stgBG4x4fmAJFnen4O3lGQ5CamgUlNiKYwhzMPyDiyOHju4bZtk7 hY5KS/GJxYGVveE0fry/9JhDGuejQ8covhxqcVs92aoH2mlw1VKNwXvkLp7kc88mE4OMTezh5GAb DgqK0RaDLM5cKoUe1FLy1K8R1IfhjeDT1H1cGUgJRMHwGkk+XSvJQwLXMj7YqW14hTJwti8OL7tw +Uer/+tklx/tb+qmtDAnRNxnjHzmaFsCDLlGudLS4FWr8+w8+wGq0NIb "
 			(at 0 0 -90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "78d1cdef-2b9d-4118-ba5e-0ef8dcf0062f")
 			(effects
@@ -3138,7 +3138,7 @@
 		(property "TurboCaseSub" "Cutout_TypeC_substract_D1()"
 			(at 0 0 -90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa486465-9d99-43a6-a22f-07c4c73d7003")
 			(effects
@@ -3151,7 +3151,7 @@
 		(property "TurboCaseOffsetPCB" "yes"
 			(at 0 0 -90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "20297a8c-b911-48e6-aa38-e66293d9973f")
 			(effects
@@ -3164,7 +3164,7 @@
 		(property "TurboCaseHeight" "16"
 			(at 0 0 -90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ffd0aa62-5aec-4b8f-962c-db0369293549")
 			(effects
@@ -3426,7 +3426,7 @@
 			(uuid "172bd5e1-007e-4654-b35e-d02fe806f94d")
 		)
 		(fp_text user "Antenna Zone"
-			(at 11.43 -3.81 -90)
+			(at 11.43 -3.81 90)
 			(layer "Cmts.User")
 			(uuid "b310dec3-67ff-4e0b-a718-4319a34ac727")
 			(effects
@@ -3437,7 +3437,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 11.43 10 -90)
+			(at 11.43 10 90)
 			(layer "F.Fab")
 			(uuid "3dc782de-82f5-4bfc-9afd-4f3ec323d538")
 			(effects

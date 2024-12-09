@@ -69,7 +69,7 @@
 	(property "TurboCaseModule" "eNpVjkELwjAMhe/9FTluOHUTFMbw5M2Td5HSdZkOu1baVBHxv1u7MTSHEL4k773eNF4h7DwZT/xg Hmj5Xsgrd752ZIWkJIUXg1CmbR0SD3ewhWJdRShqc0d+k3Vgm8UIm070SGgDK2EGxUAV6jNdvr95 xSKxhgRhcswzmJeh5ac08uCrnYqrST9ss58I46V8qk43aJNBPJusl6v/WaIeApH1mFbszT4/KEu9"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "52d6bd16-4988-4203-a45d-c82458145d4c")
 		(effects
@@ -82,7 +82,7 @@
 	(property "TurboCaseSub" "Cutout_Power_Jack_substract()"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "e16eafb5-dc05-4838-92dd-44a1dbeeeab5")
 		(effects
@@ -95,7 +95,7 @@
 	(property "TurboCaseOffsetPCB" "yes"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "4bbe3563-2685-46fc-a98a-7bd3b4cc0934")
 		(effects
@@ -108,7 +108,7 @@
 	(property "TurboCaseHeight" "10"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "c3d3856e-7bdb-4a40-82bf-f9de9b77693e")
 		(effects
