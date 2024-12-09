@@ -4089,7 +4089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+		(property "Footprint" "CustomLibrary:TerminalBlock_LED_Strand_1x03"
 			(at 172.72 74.93 0)
 			(effects
 				(font
@@ -4498,7 +4498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
+		(property "Footprint" "CustomLibrary:TerminalBlock_LED_Strand_1x04"
 			(at 172.72 62.23 0)
 			(effects
 				(font

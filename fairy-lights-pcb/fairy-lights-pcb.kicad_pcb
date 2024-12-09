@@ -1885,7 +1885,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+	(footprint "CustomLibrary:TerminalBlock_LED_Strand_1x03"
 		(layer "F.Cu")
 		(uuid "490e7baf-06cd-4b05-8881-bfaedc20a574")
 		(at 108.5 81.5 90)
@@ -1913,7 +1913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+		(property "Footprint" "CustomLibrary:TerminalBlock_LED_Strand_1x03"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1948,6 +1948,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseOffsetPCB" "yes"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5caa6ed5-4b7a-469e-bd62-d376e6f1096a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseModule" "eNpNjsEKgzAQRO/5ihwV0qItnqSnfkJ7KxJiXJtQNZDdYKH03xtjQZc9vZ3ZmdF1YQB+DeQCyZv2 MMs7+NFOapDluzhLDC2SV5qynH8Yj+P6HoFkNPALL4s6QTJWvyZAjKyqWWKz7cgsmmrVoLH94jmc jn9iwD4N7SzekSLIHoXgyzb5+tyrCYd0SD/ErsOm0qGNghQqtj7iH9LkNfuyH1rVR5Y="
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02be0fc4-3762-4230-aeeb-8d10d7cf2161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseSub" "Cutout_Screw_Terminal_1x03_substract()"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "039ff404-b2fe-4544-8ef2-4884af61917b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4135,7 +4174,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
+	(footprint "CustomLibrary:TerminalBlock_LED_Strand_1x04"
 		(layer "F.Cu")
 		(uuid "bd833cbe-a3d5-4e53-8994-7a71e616b7db")
 		(at 108.5 103 90)
@@ -4163,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
+		(property "Footprint" "CustomLibrary:TerminalBlock_LED_Strand_1x04"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4198,6 +4237,44 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseOffsetPCB" "yes"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57d52d78-6acb-4490-ba0f-a16428ee53f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "TurboCaseModule" "eNpNjUEKgzAQRfc5RZYG0qJSV9JVj2B3RUKMYxOqEZwJFkrv3jQV6uzm8f7/09yHEfgl0BxINWaB VV1hmZzXoyqe+Ulh6JAWbSgT/MV4vHkYEEjFAD/zIq8TJOvMwwNiZFXNEltdTzb+5eagdcM3cyiP 1Y9YcHdLu0hc8jhqguyWbLlbkzxvRbJM6KKQ6uV/WW51rajZm30A+QtCSQ=="
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17568f13-8c04-47b2-aff3-f5abeb41e334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TurboCaseSub" "Cutout_Screw_Terminal_1x04_substract()"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8db189f2-9c1c-4d86-bc68-27991d6b506b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
