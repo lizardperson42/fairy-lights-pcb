@@ -3062,7 +3062,7 @@
 		(descr "16-pin module, column spacing 22.86 mm (900 mils), https://wiki.wemos.cc/products:d1:d1_mini, https://c1.staticflickr.com/1/734/31400410271_f278b087db_z.jpg")
 		(tags "ESP8266 WiFi microcontroller")
 		(property "Reference" "U1"
-			(at 0.25 24.75 360)
+			(at 0.25 24.75 0)
 			(layer "F.SilkS")
 			(uuid "99c2f36d-7599-45f6-b956-95a47686da62")
 			(effects
