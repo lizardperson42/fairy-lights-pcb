@@ -3139,7 +3139,6 @@
 	)
 	(label "5V_RAW"
 		(at 62.23 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6588,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_PWR"
+		(property "Value" "PWR"
 			(at 78.74 68.58 0)
 			(effects
 				(font
@@ -6596,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "CustomLibrary:PinHeader_Power"
 			(at 78.74 73.66 0)
 			(effects
 				(font
