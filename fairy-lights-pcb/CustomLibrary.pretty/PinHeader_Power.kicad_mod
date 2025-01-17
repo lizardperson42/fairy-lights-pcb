@@ -66,6 +66,54 @@
 			)
 		)
 	)
+	(property "TurboCaseModule" "eNpNj8sKwjAQRff9illajLYWFKS4cuPShTuR0rTTB9ZGkokPxH93GlM0hGE4M/fm5qJK2yFsLSlL 2b7td5iXqLO9unM1VhrSeUGTEF4B8IkiODStAb431E+QaK7qjHM3VFVlkDJ2gg0sVvNl6nAu1Q2z ayGZJiP0uw9mMwcdvbclNYPYbzXY1o1zi7+gw752G6NCK8oJJ8d1LGA2lPgUugHn7k3nZr8A09Ex gkT417hlPuYRf7/wToWVbPIVepHwQU4CCuwJNScibTFMg3fwAaA9ZOU="
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "641d0431-ede6-488e-a1ce-c4525e112400")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "TurboCaseSub" "Cutout_PinHeader_Power_substract()"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd7acf06-e4ec-4a38-910c-7c820f563839")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "TurboCaseOffsetPCB" "yes"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faedc17b-0460-4554-bd74-da1529b0fc19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "TurboCaseHeight" "15"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca032426-e666-42d2-8824-42cabc43ac8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -1.33 -1.33)
