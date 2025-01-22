@@ -1534,7 +1534,7 @@
 				)
 			)
 		)
-		(property "TurboCaseModule" "eNrVVE1PwzAMve9X5JhCu62FAWPixB9AGhKHqaqy1t0qunakCUxC++84TZamGp+CC1E6Nbaf/eyX blNnsgRyK0UtRTJ/SO5ZKooSkvnd/D5p5LIRHC3UI68Dgost62dItumS3JDzWWuq87wBkSC+s4l1 kT5W0DRoOuuF7VTQcEJGJNL2lyITazReDifawFlWSAUM9XnFtngYK7fOzVnVlEwAXRxy+iToWPgd ydjTGWvRho99MsUnmI6NoywqYDyBneAyA7qGYrVWXVj6Oiwr8hw4VCnYOXQdUY4AzdmzLrWaJ8k4 UN1fQCJyYsJ8kkIlQOGwLnizjzMiDtv/Vd79YD/YfKoyy7Lv6zu8+p6cF8PICuZcBqOpnbRBlVCt WpiGj7BJLmjk/ZXkVvG85oSyaoXTuCGL8wm5Rh/+nF1ghKOtg8fdAuJOBodPYLsbRcipdzJdBt0E ejXUSuUSk1i/f5jEKXFsDnzWQzs8NNFu1IGpHvcvz7s1ndcDqF9nI0uxYYIXO7pYhG0ltWP/KPdh KT5hu2mIXIycnroneKTHk2ldXyTUOd/p8UuYQsY/GgV+VYb0nw8lCB2ZjyeBlakpjebQ+zdD2dv/ mzcyCrEU"
+		(property "TurboCaseModule" "eNrlVE1PwkAQvfMr5thqCwUlioaTf8AEEg9N0yztFBpLq9tdJTH8d2e729ICIkZvbvjozs6beW/e pusilhnCgxSFFOHsKZyzSKQZhrPH2Tws5aIUnCKWDR89oMUWxRuGL9ECpnB9X4WKJClRhITfxcQq jZ5zLEsKXXXSNiqpP4YBjHT8PY3FioI3/bEOcBanUgGHer9kL7Tx1LGuzVleZkyg5dc1HXB3LJwd ycDWFQtRpXsOTOjrTjxzkKU5Mh7iRnAZo7XCdLlSKhr6Oi1OkwQ55hE2c9gpsjgBNGe7OVKrfJWM o6X1uTCCC5PmQIS5QIWjvmjff12RcCT/V3W3vW1vfdJlFsfn+9u/Pc/OSe1W6yYYQ5sxm32G+bLC aOyAFHJhjey/8lvZDfsH9BlejYO2n61GbkN7MKJmnV19eeoVyQUhmhQHWo9aatCyOCk4WCxfkh1T 8D24I3rVT4fKIdkKste5RdjbZ1l33it6Uqd3KK4r0jjlmuodqc1jW2291jITayZ4urF8f6in32ZM d9iYrm5S4BzlUC9foyu232eaVmYeZ+UrSHByEEeIH/EdLn88FZf+min/4/Fse90n9Rb7BNjgu+U="
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6056,7 +6056,7 @@
 				)
 			)
 		)
-		(property "TurboCaseModule" "eNrVVE1PwzAMve9X5JhCu62FAWPixB9AGhKHqaqy1t0qunakCUxC++84TZamGp+CC1E6Nbaf/eyX blNnsgRyK0UtRTJ/SO5ZKooSkvnd/D5p5LIRHC3UI68Dgost62dItumS3JDzWWuq87wBkSC+s4l1 kT5W0DRoOuuF7VTQcEJGJNL2lyITazReDifawFlWSAUM9XnFtngYK7fOzVnVlEwAXRxy+iToWPgd ydjTGWvRho99MsUnmI6NoywqYDyBneAyA7qGYrVWXVj6Oiwr8hw4VCnYOXQdUY4AzdmzLrWaJ8k4 UN1fQCJyYsJ8kkIlQOGwLnizjzMiDtv/Vd79YD/YfKoyy7Lv6zu8+p6cF8PICuZcBqOpnbRBlVCt WpiGj7BJLmjk/ZXkVvG85oSyaoXTuCGL8wm5Rh/+nF1ghKOtg8fdAuJOBodPYLsbRcipdzJdBt0E ejXUSuUSk1i/f5jEKXFsDnzWQzs8NNFu1IGpHvcvz7s1ndcDqF9nI0uxYYIXO7pYhG0ltWP/KPdh KT5hu2mIXIycnroneKTHk2ldXyTUOd/p8UuYQsY/GgV+VYb0nw8lCB2ZjyeBlakpjebQ+zdD2dv/ mzcyCrEU"
+		(property "TurboCaseModule" "eNrlVE1PwkAQvfMr5thqCwUlioaTf8AEEg9N0yztFBpLq9tdJTH8d2e729ICIkZvbvjozs6beW/e pusilhnCgxSFFOHsKZyzSKQZhrPH2Tws5aIUnCKWDR89oMUWxRuGL9ECpnB9X4WKJClRhITfxcQq jZ5zLEsKXXXSNiqpP4YBjHT8PY3FioI3/bEOcBanUgGHer9kL7Tx1LGuzVleZkyg5dc1HXB3LJwd ycDWFQtRpXsOTOjrTjxzkKU5Mh7iRnAZo7XCdLlSKhr6Oi1OkwQ55hE2c9gpsjgBNGe7OVKrfJWM o6X1uTCCC5PmQIS5QIWjvmjff12RcCT/V3W3vW1vfdJlFsfn+9u/Pc/OSe1W6yYYQ5sxm32G+bLC aOyAFHJhjey/8lvZDfsH9BlejYO2n61GbkN7MKJmnV19eeoVyQUhmhQHWo9aatCyOCk4WCxfkh1T 8D24I3rVT4fKIdkKste5RdjbZ1l33it6Uqd3KK4r0jjlmuodqc1jW2291jITayZ4urF8f6in32ZM d9iYrm5S4BzlUC9foyu232eaVmYeZ+UrSHByEEeIH/EdLn88FZf+min/4/Fse90n9Rb7BNjgu+U="
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6534,7 +6534,7 @@
 				)
 			)
 		)
-		(property "TurboCaseModule" "eNpNj8sKwjAQRff9illajLYWFKS4cuPShTuR0rTTB9ZGkokPxH93GlM0hGE4M/fm5qJK2yFsLSlL 2b7td5iXqLO9unM1VhrSeUGTEF4B8IkiODStAb431E+QaK7qjHM3VFVlkDJ2gg0sVvNl6nAu1Q2z ayGZJiP0uw9mMwcdvbclNYPYbzXY1o1zi7+gw752G6NCK8oJJ8d1LGA2lPgUugHn7k3nZr8A09Ex gkT417hlPuYRf7/wToWVbPIVepHwQU4CCuwJNScibTFMg3fwAaA9ZOU="
+		(property "TurboCaseModule" "eNpNj08LwjAMxe/7FDk6rE5FRRFPXjx68CYy1i1zw7lKm/oH8bub1RYtJYRf8l5fL6qwDcLGkrKU 7up2i1mBOt2pO1djpSGd5dSL4RUBnySBfVUb4HtD/QSJ5qrOOHRDVZYGKWUnWMN4PpytHM6kumF6 zSXTSYB+98Fs4KCj97qgqhNPw16F9anq/BaBNNie3FIQaUUZYe+wHAkYdGV0jN2Ao7emcbNfhn6w TGAi/IPcMg+RxN9HvFNuJZt8hV4kfJCjgBxbQs2JSFuMV9E7+gCduGWB"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
