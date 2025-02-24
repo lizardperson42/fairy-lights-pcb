@@ -7,7 +7,7 @@
 	(title_block
 		(title "Fairy Lights")
 		(date "2024-11-08")
-		(rev "1")
+		(rev "1.1")
 		(company "WASPS")
 	)
 	(lib_symbols
