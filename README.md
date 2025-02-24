@@ -103,3 +103,9 @@ The microcontroller's pins are used as follows:
 | D8 (GPIO15) | On-board WS2812B LEDs | none                    |
 
 “USB” refers to the microcontroller module's USB port (5V, GND) or to its USB-to-serial converter chip (RX, TX).
+
+## Case
+
+A case design for this project is given as an OpenSCAD file in `fairy-lights-case/`.
+It has been generated from the KiCad design files using [TurboCase](https://turbocase.org) and **manually edited**.
+If some parts of the board are not to be populated, the corresponding case cutouts can be removed from the case source file.
