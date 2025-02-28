@@ -78,7 +78,7 @@
 			)
 		)
 	)
-	(property "TurboCaseModule" "eNpNTs0KgzAMvvcpelTohk48yU57hO02pNQa14La0aY4GHv31ShsIZfvL18m18cR+CWiiyiv2sMi b+AnO6tRlq+ikiF2Ab3SmOX8zXgaNwwBUKYAP/OyaIjs4Ykm4bphhBfbEy7rTQ/GDqv/cDrujAH7 MCtV7RHvUCFk90Lwdduc2NQ9h5EEuiH++n8uHbtkoFKx/SL2gjZv2Id9AcEARCY="
+	(property "TurboCaseModule" "eNpNTs0KgzAMvvcpelTowE52kp32CNttSNEa14La0aY4GHv31VTYQi7fX77MbogT8EtEF1FdtYdV 3cDPdukmJV9VrULsA/pOY1HyN+Np3DgGQJUC/Mxl1RA5wBNNwqeGEV7tQFgesx6MHTf/QWZswD7M RtR7wDvsEIp7Jfi2bUlsal7CRAJdEH/tP5eOfTJQpcifiL2gLRv2YV9M/EO/"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

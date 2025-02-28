@@ -66,6 +66,66 @@
 			)
 		)
 	)
+	(property "TurboCaseModule" "eNrlVE1PwkAQvfMr5thqCwUlioaTf8AEEg9N0yztFBpLq9tdJTH8d2e729ICIkZvbvjozs6beW/e pusilhnCgxSFFOHsKZyzSKQZhrPH2Tws5aIUnCKWDR89oMUWxRuGL9ECpnB9X4WKJClRhITfxcQq jZ5zLEsKXXXSNiqpP4YBjHT8PY3FioI3/bEOcBanUgGHer9kL7Tx1LGuzVleZkyg5dc1HXB3LJwd ycDWFQtRpXsOTOjrTjxzkKU5Mh7iRnAZo7XCdLlSKhr6Oi1OkwQ55hE2c9gpsjgBNGe7OVKrfJWM o6X1uTCCC5PmQIS5QIWjvmjff12RcCT/V3W3vW1vfdJlFsfn+9u/Pc/OSe1W6yYYQ5sxm32G+bLC aOyAFHJhjey/8lvZDfsH9BlejYO2n61GbkN7MKJmnV19eeoVyQUhmhQHWo9aatCyOCk4WCxfkh1T 8D24I3rVT4fKIdkKste5RdjbZ1l33it6Uqd3KK4r0jjlmuodqc1jW2291jITayZ4urF8f6in32ZM d9iYrm5S4BzlUC9foyu232eaVmYeZ+UrSHByEEeIH/EdLn88FZf+min/4/Fse90n9Rb7BNjgu+U="
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c4034a3-f961-487c-99fd-8c564f751608")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "TurboCaseAdd" "Cutout_SW_Tactile_SPST_add()"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cefbd2d-fa77-4cc6-9227-8a2cba787f35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "TurboCaseSub" "Cutout_SW_Tactile_SPST_substract()"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0272e3fb-6917-4fe1-ab90-67ea64965c6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "TurboCaseOffsetPCB" "yes"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc81af7e-c6ea-4b2c-af6d-2dc856dd9dba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "TurboCaseHeight" "10"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d021432f-bb7a-43b7-9a9e-d090e5f3e106")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -1.61 -0.9)
